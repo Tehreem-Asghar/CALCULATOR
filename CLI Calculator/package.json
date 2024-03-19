@@ -1,17 +1,22 @@
 {
   "name": "calculator",
   "version": "1.0.0",
-  "description": "A Simple calculator with TypeScript, node.js and inquirer ",
+  "description": "A Simple CLI calculator Creat with TypeScript, node.js and inquirer ",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tehreem",
   "license": "MIT",
   "devDependencies": {
+    "@types/chalk": "^2.2.0",
     "@types/inquirer": "^9.0.7",
-    "@types/node": "^20.11.28",
+    "@types/node": "^20.11.28"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.16"
   }
 }
